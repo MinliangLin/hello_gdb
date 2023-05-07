@@ -1,8 +1,7 @@
 # Build
 
 ```sh
-mkdir -p build
-cmake -B build
+cmake -B build -S .
 make -C build
 ```
 
